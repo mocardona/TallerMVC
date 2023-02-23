@@ -17,7 +17,7 @@ import com.mvcspringreactor.service.FiguraService;
 @RestController
 @RequestMapping("/api/figuras")
 public class FiguraController {
-	
+	// volver  a subir modificado
 	@Autowired
 	FiguraService servicio;
 	@PostMapping("/crear-figura")
